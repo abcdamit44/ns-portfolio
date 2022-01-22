@@ -1,0 +1,37 @@
+@media(max-width:768px) {
+    .banner .d-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .banner-content {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .banner .banner-img {
+        order: 1;
+    }
+    .banner-content h2,
+    .banner-content h1,
+    .banner-content h3,
+    .banner-content h4 {
+        text-align: center;
+    }
+    .banner-content a {
+        display: inline-block;
+        margin: auto;
+        padding: 0.73vw 1.5vw 1.3vw;
+    }
+    .about,
+    .services,
+    .contact {
+        height: auto;
+    }
+    .contact input[type=text],
+    .contact input[type=email],
+    textarea {
+        font-size: 1.5vw;
+    }
+}

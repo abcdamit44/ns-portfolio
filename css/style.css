@@ -106,7 +106,6 @@ nav {
 /* Banenr  */
 
 .banner {
-    /* height: 100vh; */
     margin-block-start: 13vw;
 }
 
@@ -134,7 +133,7 @@ nav {
     font-family: 'Architects Daughter', cursive;
     font-size: 1.25vw;
     letter-spacing: 0.15vw;
-    margin-block-end: 2vh;
+    margin-block-end: 2vw;
     color: rebeccapurple;
 }
 
@@ -143,7 +142,7 @@ nav {
     letter-spacing: 0.1vw;
     font-size: 1.1vw;
     font-weight: 300;
-    margin-block-end: 5.5vh;
+    margin-block-end: 3vw;
 }
 
 .banner-content a {
@@ -170,7 +169,7 @@ nav {
 .banner-img img {
     width: 80%;
     position: relative;
-    bottom: 7vh;
+    bottom: 5vw;
 }
 
 
