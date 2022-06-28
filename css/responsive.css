@@ -1,0 +1,140 @@
+@media(max-width:768px) {
+    .container {
+        width: 90%;
+    }
+    .nav-links ul li a {
+        font-size: 0.5rem;
+    }
+    .banner {
+        margin-block-start: 5rem;
+    }
+    .banner .d-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .banner-content {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .banner .banner-img {
+        order: 1;
+    }
+    .banner-img {
+        text-align: center;
+        width: 70%;
+    }
+    .banner-img img {
+        width: 90%;
+    }
+    .banner-content h2 {
+        font-size: 0.8rem !important;
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .banner-content h3 {
+        font-size: 0.65rem;
+        text-align: center;
+    }
+    .banner-content h4 {
+        text-align: center;
+        font-size: 0.65rem;
+    }
+    .banner-content a {
+        display: inline-block;
+        margin: auto;
+        padding: 0.5rem 0.75rem 0.65rem;
+        font-size: 0.65rem;
+    }
+    .about,
+    .services,
+    .testimonial,
+    .contact {
+        height: auto;
+        padding-top: 3rem;
+    }
+    .about h2,
+    .services h2,
+    .testimonial h2,
+    .contact h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.0rem;
+    }
+    .about p {
+        font-size: 0.75rem;
+        font-weight: 600;
+        width: 100%;
+        line-height: 1.7;
+    }
+    .about a {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+    }
+    .about a>span {
+        font-size: 1.2rem;
+    }
+    .services .d-flex {
+        flex-wrap: wrap;
+    }
+    .services .card {
+        width: 50%;
+        border-radius: 0.2vw;
+        padding: 0.5rem;
+    }
+    .services .card .card-body .card-title {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+    .services .card .card-body .card-description {
+        letter-spacing: 0.055rem;
+        font-size: 0.65rem;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+    .services .card .card-body .card-btn a {
+        margin-top: 0.85rem;
+        font-size: 0.85rem;
+        border: 0.1rem solid #ED462F;
+        padding: 0.5rem 1.2rem;
+        border-radius: 10rem;
+    }
+    .testimonial .card .card-quotes span {
+        font-size: 3rem;
+    }
+    .testimonial .card .card-body {
+        top: -1.5rem;
+    }
+    .testimonial .card .card-body .card-desc {
+        font-size: 0.75rem;
+    }
+    .testimonial .card .card-body .card-img {
+        width: 30%;
+        text-align: center;
+        margin-block-start: 1.5rem;
+        margin-block-end: 1.5rem;
+    }
+    .testimonial .card-position {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .card-name {
+        font-size: 0.85rem;
+    }
+    .contact input[type=text],
+    .contact input[type=email],
+    textarea {
+        font-size: 0.65rem;
+    }
+    .contact button {
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+    footer p {
+        font-size: 0.65rem;
+    }
+}
